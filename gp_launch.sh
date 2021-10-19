@@ -37,7 +37,7 @@ pwd
 echo "Start execution"
 date
 
-if [[ ${VERSION} -eq 2 ]]
+if [[ ${VERSION} -ne 1 ]]
 then
    accel=SETA_250GeV
    parms=par
