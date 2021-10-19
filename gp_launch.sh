@@ -26,6 +26,7 @@ module list
 echo "Run Guinea-Pig++ script"
  
 MYWDIR=/home/gwwilson/gpruns/Run${VERSION}
+mkdir ${MYWDIR}
 
 MYXDIR=$WORK/GPInstall/bin
 
@@ -33,20 +34,26 @@ cd ${MYWDIR}
 
 echo "Now in directory "
 pwd
+echo "making symbolic link"
+ln -s /home/graham/gpconfigs/acc-${VERSION}.dat acc.dat
+ln -s /home/graham/gpconfigs/electron_TDR_Apr2013_250GeV_run1.ini electron.ini
+ln -s /home/graham/gpconfigs/positron_TDR_Apr2013_250GeV_run1.ini positron.ini
+
+ls -lrt
 
 echo "Start execution"
 date
 
-if [[ ${VERSION} -ne 1 ]]
-then
+#if [[ ${VERSION} -ne 1 ]]
+#then
    accel=SETA_250GeV
    parms=par
    outfile=GPResults.out
-else
-   accel=ilc250B
-   parms=gww2
-   outfile=GPResults-Test17.out
-fi
+#else
+#   accel=ilc250B
+#   parms=gww2
+#   outfile=GPResults-Test17.out
+#fi
 
 echo "Accelerator " ${accel}
 echo "Parameters  " ${parms}
