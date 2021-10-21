@@ -21,6 +21,7 @@ echo $PATH
 echo "LD_LIBRARY_PATH"
 echo $LD_LIBRARY_PATH
 
+module load fftw3
 module list
 
 echo "Run Guinea-Pig++ script"
