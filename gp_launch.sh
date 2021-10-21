@@ -36,8 +36,10 @@ echo "Now in directory "
 pwd
 echo "making symbolic link"
 ln -s /home/gwwilson/gpconfigs/acc-${VERSION}.dat acc.dat
-ln -s /home/gwwilson/gpconfigs/electron_TDR_Apr2013_250GeV_run1.ini electron.ini
-ln -s /home/gwwilson/gpconfigs/positron_TDR_Apr2013_250GeV_run1.ini positron.ini
+ln -s /home/gwwilson/gpconfigs/electron_SetA_250GeV_run1.ini electron.ini
+ln -s /home/gwwilson/gpconfigs/positron_SetA_250GeV_run1.ini positron.ini
+#ln -s /home/gwwilson/gpconfigs/electron_TDR_Apr2013_250GeV_run1.ini electron.ini
+#ln -s /home/gwwilson/gpconfigs/positron_TDR_Apr2013_250GeV_run1.ini positron.ini
 
 ls -lrt
 
