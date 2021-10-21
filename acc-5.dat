@@ -1,4 +1,4 @@
-$ACCELERATOR:: SetA_250GeV
+$ACCELERATOR:: SETA_250GeV
 {trav_focus=0;espread.1=0.00190;espread.2=0.00152;
 energy=125;particles=2;beta_x=13;beta_y=0.41;
 emitt_x=5.0;emitt_y=0.035;sigma_x=729;sigma_y=7.7;sigma_z=300;
