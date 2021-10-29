@@ -68,6 +68,8 @@ ${MYXDIR}/guinea ${accel} ${parms} ${outfile}
 
 #Clean up a bit by compressing output files
 gzip *.out
+#Compress *.dat files starting with b,c,h,m, or p characters like pairs.dat
+gzip [bchmp]*.dat
 
 # Make a copy of the input file for posterity
 cp acc.dat acc-Run${VERSION}.dat
