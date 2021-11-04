@@ -29,7 +29,7 @@ module list
 
 echo 'Run Guinea-Pig++ script'
  
-MYWDIR=${WORK}/GPRuns/RunZ${VERSION}
+MYWDIR=${WORK}/GPRuns/Run-Z-${VERSION}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
 MYXDIR=$WORK/GPInstall/bin
@@ -72,7 +72,7 @@ gzip *.out
 gzip [bchmp]*.dat
 
 # Make a copy of the input file for posterity
-cp acc.dat acc-RunZ${VERSION}.dat
+cp acc.dat acc-Run-Z-${VERSION}.dat
  
 date
 
