@@ -64,7 +64,7 @@ echo "Accelerator " ${accel}
 echo "Parameters  " ${parms}
 echo "Results file " ${outfile}
 
-${MYXDIR}/guinea ${accel} ${parms} ${outfile}
+${MYXDIR}/guinea-Prod ${accel} ${parms} ${outfile}
 
 #Clean up a bit by compressing output files
 gzip *.out
