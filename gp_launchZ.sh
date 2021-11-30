@@ -56,8 +56,12 @@ ls -lrt
 echo 'Start execution'
 date
 
-accel=ILCZ
-parms=par
+
+# Now we can specify different values at the command line if desired
+# (the syntax ${2:-ILCZ} means that this is the second argument and it defaults to ILCZ
+accel=${2:-ILCZ}
+parms=${3:-par}
+
 outfile=GPResults.out
 
 echo "Accelerator " ${accel}
@@ -72,7 +76,7 @@ gzip *.out
 gzip [bchmp]*.dat
 
 # Make a copy of the input file for posterity
-cp acc.dat acc-Run-Z-${VERSION}.dat
+cp acc.dat acc-Run-Z-${VERSION}_${accel}_${parms}.dat
  
 date
 
