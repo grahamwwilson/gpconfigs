@@ -35,7 +35,7 @@ cut_y=6.0*sigma_y.1;cut_z=3.35*sigma_z.1;ecm_min=0.99*91.2;
 hist_ee_bins=50;hist_ee_min=405;hist_ee_max=505;
 track_pairs=1;store_pairs=1;do_coherent=1;do_compt=1;compt_emax=1.1*45.6;
 grids=7;beam_size=1;rndm_seed=2;rndm_load=0;rndm_save=0;
-automatic_grid_sizing=0,
+automatic_grid_sizing=0;
 force_symmetric=0;integration_method=2 ;do_eloss = 1 ;electron_ratio=1;
 do_pairs=1;pair_ratio=1.0;pair_ecut = 0.0005;pair_q2=2;
 do_photons=1;store_photons=1;photon_ratio=0.1;
