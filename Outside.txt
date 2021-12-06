@@ -1,5 +1,14 @@
 Run-Z-3
 beam 1 : miss = 0.454545  beam 2 : miss = 0.394495
 
-Run-Z-4
+Run-Z-4  (6 sigma_y)
 beam 1 : miss = 0.135294  beam 2 : miss = 0.104972
+
+Run-Z-5. (8 sigma y) 33,183 in lumi.ee.out file.
+beam 1 : miss = 0.0647059  beam 2 : miss = 0.0276243
+Number of tracked macroparticles (beam1) : 399,678
+                                 (beam2) : 399,694 
+                                 
+Run-Z-6. (Sparser grid 32*32*16)
+beam 1 : miss = 0.039356  beam 2 : miss = 0.0450281
+                                 
