@@ -60,7 +60,7 @@ date
 # Now we can specify different values at the command line if desired
 # (the syntax ${2:-ILCZ} means that this is the second argument and it defaults to ILCZ
 accel=${2:-ILCZ}
-parms=${3:-par}
+parms=${3:-lumi}
 
 outfile=GPResults.out
 
