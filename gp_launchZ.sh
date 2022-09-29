@@ -4,7 +4,7 @@
 #SBATCH --mail-type=ALL               # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=gwwilson@ku.edu   # Where to send mail	
 #SBATCH --ntasks=1                    # Run on a single CPU
-#SBATCH --mem=1gb                     # Job memory request
+#SBATCH --mem=4gb                     # Job memory request
 #SBATCH --time=0-06:00:00             # Time limit days-hrs:min:sec
 #SBATCH --output=gpig_%j.log          # Standard output and error log
 
@@ -32,7 +32,7 @@ echo 'Run Guinea-Pig++ script'
 MYWDIR=${WORK}/GPRuns/Run-Z-${VERSION}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
-MYXDIR=$WORK/GPInstall/bin
+MYXDIR=$WORK/GPInstall2/bin
 MYCDIR=$WORK/GPConfigFiles
 MYCDIRG=${MYCDIR}/gpconfigs
 
