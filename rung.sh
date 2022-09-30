@@ -1,5 +1,5 @@
 #!/bin/sh
 
-sbatch gp_launch.sh 10
+sbatch gp_launch.sh 11
 
 exit

@@ -48,8 +48,8 @@ echo 'Now in output directory '
 pwd
 echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/acc-${VERSION}.dat acc.dat
-ln -s ${MYCDIR}/electron.ini electron.ini
-ln -s ${MYCDIR}/positron.ini positron.ini
+ln -s ${MYCDIR}/electron_160k.ini electron.ini
+ln -s ${MYCDIR}/positron_160k.ini positron.ini
 
 ls -lrt
 
