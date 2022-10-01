@@ -28,8 +28,11 @@ module load fftw3
 module list
 
 echo 'Run Guinea-Pig++ script'
+
+BEAMS=$2
+echo 'Beams set to '${BEAMS}
  
-MYWDIR=${WORK}/GPRuns/Run${VERSION}
+MYWDIR=${WORK}/GPRuns/Run${VERSION}_${BEAMS}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
 MYXDIR=$WORK/GPInstall2/bin
@@ -48,8 +51,8 @@ echo 'Now in output directory '
 pwd
 echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/acc-${VERSION}.dat acc.dat
-ln -s ${MYCDIR}/electron_160k.ini electron.ini
-ln -s ${MYCDIR}/positron_160k.ini positron.ini
+ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
+ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
 
 ls -lrt
 
