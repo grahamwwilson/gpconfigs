@@ -1,5 +1,8 @@
 #!/bin/sh
 
-sbatch gp_launch.sh 23 160k_Minus30
+
+RUN=$1
+
+sbatch gp_launch.sh ${RUN} 160k_Minus30
 
 exit
