@@ -1,0 +1,6 @@
+acc-30.dat
+
+Try using beam energy spread from program 
+rather than from input files.  
+No longer specify sigma_x and sigma_y in the input 
+accelerator file (redundant with beta functions and emittances).
