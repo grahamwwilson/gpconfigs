@@ -32,10 +32,10 @@ echo 'Run Guinea-Pig++ script'
 BEAMS=$2
 echo 'Beams set to '${BEAMS}
  
-MYWDIR=${WORK}/GPRuns/Run${VERSION}_${BEAMS}
+MYWDIR=${WORK}/GPRuns/RunGP3-${VERSION}_${BEAMS}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
-MYXDIR=$WORK/GPInstall2/bin
+MYXDIR=$WORK/GPInstall3/bin
 MYCDIR=$WORK/GPConfigFiles
 MYCDIRG=${MYCDIR}/gpconfigs
 
