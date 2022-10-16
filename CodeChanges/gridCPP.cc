@@ -911,6 +911,8 @@ void GRID::collide_ee(int cellx, int celly,float min_z, const BEAM_PARTICLE_POIN
 
   float energy1 = pointer1.energy();
   float energy2 = pointer2.energy();
+  
+// GWW Make sure that energies after beam energy spread are used in the lumi files.  
   if (switches.get_do_lumi()&1)
     {
       float p1Vx, p1Vy, p2Vx, p2Vy;
@@ -919,9 +921,13 @@ void GRID::collide_ee(int cellx, int celly,float min_z, const BEAM_PARTICLE_POIN
       if ( bmt_precession ) 
       //      if (SPIN)
 		{
-		  lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, energy1, p1Vx, p1Vy, energy2, p2Vx, p2Vy, weight, pointer1.getSpin(),pointer2.getSpin() , time_counter);
+//GWW		  lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, energy1, p1Vx, p1Vy, energy2, p2Vx, p2Vy, weight, pointer1.getSpin(),pointer2.getSpin() , time_counter);
+		  lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, e1, p1Vx, p1Vy, e2, p2Vx, p2Vy, weight, pointer1.getSpin(),pointer2.getSpin() , time_counter);		  
 		}
-      else lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, energy1, p1Vx, p1Vy, energy2, p2Vx, p2Vy, weight,time_counter);
+      else{
+//GWW          lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, energy1, p1Vx, p1Vy, energy2, p2Vx, p2Vy, weight,time_counter);
+          lumi_heap_ee_.lumi_store_ee(mesh_, cellx, celly,min_z, e1, p1Vx, p1Vy, e2, p2Vx, p2Vy, weight,time_counter);          
+      } 
     }
 
   if (energy1 < 0.0) j1=1;
