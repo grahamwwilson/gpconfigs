@@ -761,7 +761,7 @@ class GRID : public GENERAL_GRID , public ABSTRACT_IO_CLASS
   
   //void deltaVelocityFromFieldCIC(float xpart,float ypart, float energy,   PHI_FLOAT *phi, float distance,float& ax, float& ay);
   
-  inline float spread_energy(float ener, int which_spread, float spread, RNDM& rndm_generator) const 
+  inline float spread_energy(float ener, float energyNominal, int which_spread, float spread, RNDM& rndm_generator) const 
   {
     JET_FLOAT dx=3.4,xmin=-1.7;
     float energy = ener;
@@ -783,8 +783,14 @@ class GRID : public GENERAL_GRID , public ABSTRACT_IO_CLASS
 	  }
 	break;
       case 3:
+// Multiplicative energy spread      
 	energy *= 1.0 + spread*rndm_generator.gasdev();
 	break;
+      case 4:
+// Add new case with additive energy spread which should better model the pre-beamstrahlung beam energy spread.
+// Graham W. Wilson 
+	energy += energyNominal*spread*rndm_generator.gasdev();
+	break;	
       }
     return energy;
   }
