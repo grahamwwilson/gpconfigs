@@ -1201,7 +1201,7 @@ void def_param(MEMORY_ACCOUNT* m_account)
   define_values("{do_lumi=0;num_lumi=100000;lumi_p=1e-29;}", m_account);
   define_values("{lumi_p_eg=1e-29;lumi_p_gg=1e-29;}", m_account);
   // define_values("{lumi_gg_2_n=100;lumi_gg_2_min=0.0;lumi_gg_2_max=1.0;}", m_account);
-  define_values("{do_bhabhas=0; bhabha_ratio=1.0;bhabha_scal=1.e-29; bhabha_ecmload = 250.; ecm_min=0.0;ecm_min_gg=0.0;}", m_account);
+  define_values("{do_bhabhas=0; bhabha_ratio=1.0;bhabha_scal=1.e-29; bhabha_ecmload = 250.0; ecm_min=0.0;ecm_min_gg=0.0;}", m_account);
   define_values("{cut_x=-1.0;cut_y=-1.0;cut_z=-1.0;}", m_account);
   define_values("{cut_x_factor=-1.0;cut_y_factor=-1.0;cut_z_factor=-1.0;}", m_account);
   define_values("{jet_pythia=0;}", m_account);
