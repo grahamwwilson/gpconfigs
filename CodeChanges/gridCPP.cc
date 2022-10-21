@@ -893,8 +893,10 @@ void GRID::collide_ee(int cellx, int celly,float min_z, const BEAM_PARTICLE_POIN
   e2 =  fabs(pointer2.energy());
   if (switches.get_do_espread())
     {
-      e1 = spread_energy(e1, switches.get_which_espread1(), switches.get_espread1(), *rndm_generator_);
-      e2 = spread_energy(e2, switches.get_which_espread2(), switches.get_espread2(), *rndm_generator_);
+  // New second argument uses the bhabha_ecmload parameter to compute the nominal beam energy
+  // So need to specify this in new versions of the code   
+      e1 = spread_energy(e1, 0.5*switches.get_bhabha_ecmload(), switches.get_which_espread1(), switches.get_espread1(), *rndm_generator_);
+      e2 = spread_energy(e2, 0.5*switches.get_bhabha_ecmload(), switches.get_which_espread2(), switches.get_espread2(), *rndm_generator_);
     }
 
   if (switches.get_do_isr()) isr2(e1,e2,&e1,&e2, *rndm_generator_);
