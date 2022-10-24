@@ -5,7 +5,7 @@
 #SBATCH --mail-user=gwwilson@ku.edu   # Where to send mail	
 #SBATCH --ntasks=1                    # Run on a single CPU
 #SBATCH --mem=4gb                     # Job memory request
-#SBATCH --time=0-12:00:00             # Time limit days-hrs:min:sec
+#SBATCH --time=0-23:59:00             # Time limit days-hrs:min:sec
 #SBATCH --output=gpigb_%j.log         # Standard output and error log
 
 VERSION=$1
@@ -29,10 +29,10 @@ module list
 
 echo 'Run Guinea-Pig++ script'
 
-BEAMS=$2
-echo 'Beams set to '${BEAMS}
+#BEAMS=$2
+#echo 'Beams set to '${BEAMS}
  
-MYWDIR=${WORK}/GPRuns/RunGP3-${VERSION}_${BEAMS}
+MYWDIR=${WORK}/GPRuns/RunGP3-${VERSION}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
 MYXDIR=$WORK/GPInstall3/bin
@@ -51,8 +51,8 @@ echo 'Now in output directory '
 pwd
 echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/acc-${VERSION}.dat acc.dat
-ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
-ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
+#ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
+#ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
 
 ls -lrt
 
