@@ -1,14 +1,14 @@
 #!/bin/sh
 
-sbatch gp_launchbp.sh 40
-sbatch gp_launchbp.sh 41
-sbatch gp_launchbp.sh 42
-sbatch gp_launchbp.sh 43
-sbatch gp_launchbp.sh 44
-sbatch gp_launchbp.sh 45
-sbatch gp_launchbp.sh 46
-sbatch gp_launchbp.sh 47
-sbatch gp_launchbp.sh 48
-sbatch gp_launchbp.sh 49
+sbatch gp_launchbp.sh 50
+sbatch gp_launchbp.sh 51
+sbatch gp_launchbp.sh 52
+sbatch gp_launchbp.sh 53
+sbatch gp_launchbp.sh 54
+sbatch gp_launchbp.sh 55
+sbatch gp_launchbp.sh 56
+sbatch gp_launchbp.sh 57
+sbatch gp_launchbp.sh 58
+sbatch gp_launchbp.sh 59
 
 exit
