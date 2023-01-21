@@ -72,6 +72,9 @@ ${MYXDIR}/guinea-Prod ${accel} ${parms} ${outfile}
 # Strip off first 100,000 events from lumi.ee.out
 head --lines=100000 lumi.ee.out >lumi.ee_100k.outfile
 
+# Strip off first 200,000 events from lumi.ee.out
+head --lines=200000 lumi.ee.out >lumi.ee_200k.outfile
+
 #Clean up a bit by compressing output files
 gzip *.out
 #Compress *.dat files starting with b,c,h,m, or p characters like pairs.dat
