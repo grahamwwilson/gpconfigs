@@ -1,4 +1,4 @@
-Run number       Seed       Eb [GeV]  espread     n_z    n_t   Bhabhas?
+Run number       Seed       Eb [GeV]  espread     n_z    n_t    Bhabhas?
 ------------------------------------------------------------------------
 
 LEPZ-101         1701      45.55      8.54e-3  
@@ -11,8 +11,12 @@ LEPZ-104         1704      45.6       8.54e-4      32      4      <= DEFAULT
 
 LEPZ-105         1705      45.6       8.54e-6      32      4
 
+(Z-80  sets waist_y = 0 instead of +1.1 sigma_z as in Z-70--79 and uses seed 1706)
+
 LEPZ-106         1707        "        8.54e-4      32      8
   
 LEPZ-107         1708        "          "          64      4
 
 LEPZ-108         1709        "          "          32      4     Y
+
+(Z-81 does Bhabhas for optimal? waist_y and uses seed 1709).
