@@ -69,6 +69,6 @@ do_trident=1;
 lumi_p=1.0e-27;
 do_bhabhas=1;
 bhabha_ecmload=91.2;
-bhabha_scal=1.0e-27;
+bhabha_scal=5.0e-30;
 bhabha_ratio=1.0;
 }
