@@ -1,8 +1,8 @@
 $ACCELERATOR:: LEPZ
 {
 trav_focus=0;
-espread.1=8.54e-6;
-espread.2=8.54e-6;
+espread.1=8.54e-4;
+espread.2=8.54e-4;
 energy=45.60;
 particles=12.80;
 beta_x=2000.0;
