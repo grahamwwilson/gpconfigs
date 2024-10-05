@@ -1,3 +1,7 @@
 .mynotes
 *~
 *.ini
+launch.sh
+launch_copula.sh
+makelinks5X.sh
+makelinks7X.sh
