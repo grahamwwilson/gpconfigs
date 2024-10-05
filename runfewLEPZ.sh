@@ -2,8 +2,7 @@
 
 # Not sure why I started calling these bp.
 
-sbatch gp_launchbpLEPZ.sh 106
-sbatch gp_launchbpLEPZ.sh 107
+sbatch gp_launchbpLEPZ.sh 108
 
 
 exit
