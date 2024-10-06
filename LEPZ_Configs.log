@@ -24,3 +24,9 @@ LEPZ-108         1709        "          "          32      4     Y
 LEPZ-109         1711                                           Bhabhas   store_pairs=2  bhabha_scal=4.8e-26
 
 LEPZ-110         1712                                           Bhabhas         "               "              grids=7
+
+Z-82             1713           grids=0
+
+Z-83             1714    normal      grids=7
+
+Z-84             1715   waist_y=0   grids=7
