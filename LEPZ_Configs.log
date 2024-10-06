@@ -19,4 +19,8 @@ LEPZ-107         1708        "          "          64      4
 
 LEPZ-108         1709        "          "          32      4     Y
 
-(Z-81 does Bhabhas for optimal? waist_y and uses seed 1709).
+(Z-81 does Bhabhas for optimal? waist_y and uses seed 1710).
+
+LEPZ-109         1711                                           Bhabhas   store_pairs=2  bhabha_scal=4.8e-26
+
+LEPZ-110         1712                                           Bhabhas         "               "              grids=7
