@@ -53,7 +53,7 @@ echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/accLEPZ-${VERSION}.dat acc.dat
 #ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
 #ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
-ln -s ${MYCDIR}/bhabhaZ-Probe.ini bhabha.ini
+ln -s ${MYCDIR}/bhabhaZ-InnerProbe.ini bhabha.ini
 
 ls -lrt
 

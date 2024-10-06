@@ -10,6 +10,10 @@
 #sbatch gp_launchbpZ.sh 77
 #sbatch gp_launchbpZ.sh 78
 #sbatch gp_launchbpZ.sh 79
-sbatch gp_launchbpZ.sh 84
+
+# Outer and inner high statistics
+
+sbatch gp_launchbpZC.sh 85
+sbatch gp_launchbpZ.sh 86
 
 exit
