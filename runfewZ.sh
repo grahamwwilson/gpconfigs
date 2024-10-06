@@ -10,6 +10,7 @@
 #sbatch gp_launchbpZ.sh 77
 #sbatch gp_launchbpZ.sh 78
 #sbatch gp_launchbpZ.sh 79
-sbatch gp_launchbpZ.sh 81
+sbatch gp_launchbpZ.sh 82
+sbatch gp_launchbpZC.sh 83
 
 exit
