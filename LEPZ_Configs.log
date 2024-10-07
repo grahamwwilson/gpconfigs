@@ -30,3 +30,15 @@ Z-82             1713           grids=0
 Z-83             1714    normal      grids=7
 
 Z-84             1715   waist_y=0   grids=7
+
+LEPZ-111   OuterProbe
+ 
+LEPZ-112   InnerProbe  
+
+Z-85       OuterProbe
+
+Z-86       InnerProbe
+
+LEPZ-113   InnerProbe
+
+LEPZ-114   OuterProbe

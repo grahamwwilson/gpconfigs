@@ -13,7 +13,7 @@
 
 # Outer and inner high statistics
 
-sbatch gp_launchbpZC.sh 85
-sbatch gp_launchbpZ.sh 86
+sbatch gp_launchbpZC.sh 88
+sbatch gp_launchbpZ.sh 87
 
 exit
