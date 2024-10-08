@@ -39,6 +39,15 @@ Z-85       OuterProbe
 
 Z-86       InnerProbe
 
-LEPZ-113   InnerProbe
+LEPZ-113   InnerProbe  (256, 512, 40, 5, 500000)
 
 LEPZ-114   OuterProbe
+
+Z-87       InnerProbe  (256, 512, 64, 6, 600000)
+
+Z-88       OuterProbe           "
+
+Z-89       InnerProbe  (128, 256, 32, 4, 500000)    do_espread=1.
+
+Z-90       OuterProbe 
+
