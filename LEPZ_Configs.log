@@ -51,3 +51,10 @@ Z-89       InnerProbe  (128, 256, 32, 4, 500000)    do_espread=1.
 
 Z-90       OuterProbe 
 
+Z-91       InnerProbe  (256, 512, 64, 6, 600000)
+
+Z-92       OuterProbe     "
+
+Z-93       InnerProbe     "   which_espread=4
+
+Z-94       OuterProbe     "   which_espread=4
