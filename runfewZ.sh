@@ -27,11 +27,6 @@
 
 
 # Vertical waist scan
-sbatch gp_launchZ-Bhabha.sh 100 31
-sbatch gp_launchZ-Bhabha.sh 101 41
-sbatch gp_launchZ-Bhabha.sh 102 52
-sbatch gp_launchZ-Bhabha.sh 103 67
-sbatch gp_launchZ-Bhabha.sh 104 85
 
 sbatch gp_launchZ-Bhabha.sh 105 31
 sbatch gp_launchZ-Bhabha.sh 106 41
@@ -44,6 +39,12 @@ sbatch gp_launchZ-Bhabha.sh 111 41
 sbatch gp_launchZ-Bhabha.sh 112 52
 sbatch gp_launchZ-Bhabha.sh 113 67
 sbatch gp_launchZ-Bhabha.sh 114 85
+
+sbatch gp_launchZ-Bhabha.sh 100 31
+sbatch gp_launchZ-Bhabha.sh 101 41
+sbatch gp_launchZ-Bhabha.sh 102 52
+sbatch gp_launchZ-Bhabha.sh 103 67
+sbatch gp_launchZ-Bhabha.sh 104 85
 
 sbatch gp_launchZ-Bhabha.sh 115 31
 sbatch gp_launchZ-Bhabha.sh 116 41
