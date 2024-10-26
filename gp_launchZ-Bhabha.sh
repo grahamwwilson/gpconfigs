@@ -55,7 +55,9 @@ echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/accZ-${VERSION}.dat acc.dat
 #ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
 #ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
-ln -s ${MYCDIR}/bhabha-Z-${ANGLE}.ini bhabha.ini
+#ln -s ${MYCDIR}/bhabha-Z-${ANGLE}.ini bhabha.ini
+# let's make our own local copy to avoid contention
+cp ${MYCDIR}/bhabha-Z-${ANGLE}.ini bhabha.ini
 
 ls -lrt
 
@@ -82,6 +84,8 @@ head --lines=200000 lumi.ee.out >lumi.ee_200k.outfile
 gzip *.out
 #Compress *.dat files starting with b,c,h,m, or p characters like pairs.dat
 gzip [bchmp]*.dat
+
+gzip bhabha.ini
 
 # Make a copy of the input file for posterity
 cp acc.dat acc-Run${VERSION}.dat
