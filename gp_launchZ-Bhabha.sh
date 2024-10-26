@@ -55,7 +55,7 @@ echo 'Making symbolic links to control file and beam files'
 ln -s ${MYCDIRG}/accZ-${VERSION}.dat acc.dat
 #ln -s ${MYCDIR}/electron_${BEAMS}.ini electron.ini
 #ln -s ${MYCDIR}/positron_${BEAMS}.ini positron.ini
-ln -s ${MYCDIR}/bhabha-Z-${ANGLE}mrad.ini bhabha.ini
+ln -s ${MYCDIR}/bhabha-Z-${ANGLE}.ini bhabha.ini
 
 ls -lrt
 

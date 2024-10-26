@@ -64,3 +64,7 @@ Z-95       41 mrad      SEED=1730
 Z-96       67 mrad      SEED=1731
 
 Z-97       85 mrad      SEED=1732 
+
+Z-120      TenAngles    SEED=1753   waist_y=0.9 sigma_z
+
+Z-121      TenAngles    SEED=1754   N=1.6
