@@ -72,3 +72,5 @@ Z-121      TenAngles    SEED=1754   N=1.6
 Z-122      TenAngles-Backward    SEED=1755   N=2.0
 
 Z-123      TenAngles-Backward    SEED=1756   N=1.6
+
+Z-124      TenAngles    SEED=1757   N=2.0, sE/E=0.00270, sigma_z=455.0
