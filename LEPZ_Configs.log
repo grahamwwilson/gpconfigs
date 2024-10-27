@@ -76,3 +76,5 @@ Z-123      TenAngles-Backward    SEED=1756   N=1.6
 Z-124      TenAngles    SEED=1757   N=2.0, sE/E=0.00270, sigma_z=455.0
 
 Z-125      TenAngles    SEED=1758, N=2.0, betay=0.468mm
+
+Z-126      TenAngles    SEED=1759, N=2.0, betax=21.6mm
