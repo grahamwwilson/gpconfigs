@@ -68,14 +68,23 @@
 #sbatch gp_launchZ-Bhabha.sh 130 TenAngles
 
 # force_symmetric 0
-sbatch gp_launchZ-Bhabha.sh 131 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 131 TenAngles
 
 # waist_y scan
-sbatch gp_launchZ-Bhabha.sh 132 TenAngles
-sbatch gp_launchZ-Bhabha.sh 133 TenAngles
-sbatch gp_launchZ-Bhabha.sh 134 TenAngles
-sbatch gp_launchZ-Bhabha.sh 135 TenAngles
-sbatch gp_launchZ-Bhabha.sh 136 TenAngles
-sbatch gp_launchZ-Bhabha.sh 137 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 132 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 133 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 134 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 135 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 136 TenAngles
+#sbatch gp_launchZ-Bhabha.sh 137 TenAngles
+
+# more points for the waist_y scan
+sbatch gp_launchZ-Bhabha.sh 138 TenAngles
+sbatch gp_launchZ-Bhabha.sh 139 TenAngles
+sbatch gp_launchZ-Bhabha.sh 140 TenAngles
+sbatch gp_launchZ-Bhabha.sh 141 TenAngles
+sbatch gp_launchZ-Bhabha.sh 142 TenAngles
+sbatch gp_launchZ-Bhabha.sh 143 TenAngles
+sbatch gp_launchZ-Bhabha.sh 144 TenAngles
 
 exit
