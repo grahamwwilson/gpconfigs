@@ -85,4 +85,12 @@ Z-129      TenAngles    SEED=1762, N=1.64, sE/E=0.00246, sigma_z=500.0um
 
 Z-130      TenAngles    SEED=1763, N=2.0, sE/E=0.00200, sigma_z=615.0um
 
+LEPZ-115   TwoAngles    SEED=1778. Same comp. parameters as LEPZ-113/LEPZ-114.
+
+LEPZ-116   TwoAngles    SEED=1779. Same comp parameters as Z-91 etc.  (256, 512, 64, 6, 600000)
+
+LEPZ-117   TwoAngles    SEED=1780. As LEPZ-116 but with force_symmetric=0
+
+LEPZ-118   TwoAngles    SEED=1781. (512,1024,80,8,700000). Should maybe be nine times slower??
+
 
