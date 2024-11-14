@@ -43,7 +43,7 @@ mkdir ${MYWDIR}
 MYXDIR=$WORKG/GPInstall3/bin
 #Graham's GPConfigFiles
 MYCDIR=$WORKG/GPConfigFiles
-MYCDIRG=$WORK/GPConfigFiles/gpconfigs
+MYCDIRG=$WORKG/GPConfigFiles/gpconfigs
 
 echo 'Script defines'
 echo 'MYWDIR:  '${MYWDIR}
