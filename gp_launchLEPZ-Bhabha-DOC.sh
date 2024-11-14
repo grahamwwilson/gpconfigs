@@ -36,7 +36,7 @@ echo 'WORKG '${WORKG}
 echo 'Run Guinea-Pig++ script'
 
 #MYWDIR is the directory where the batch job saves its output 
-MYWDIR=${WORK}/GPRuns/Run-LEPZ-${VERSION}
+MYWDIR=${WORKG}/GPRuns/Run-LEPZ-${VERSION}
 echo 'Creating directory '${MYWDIR}
 mkdir ${MYWDIR}
 #MYXDIR has the GP executable
@@ -68,7 +68,7 @@ ls -lrt
 echo 'Start execution'
 date
 
-accel=ILCZ
+accel=LEPZ
 parms=lumi
 outfile=GPResults.out
 
