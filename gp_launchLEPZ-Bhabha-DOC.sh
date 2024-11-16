@@ -5,7 +5,7 @@
 #SBATCH --mail-user=gwwilson@ku.edu   # Where to send mail	
 #SBATCH --ntasks=1                    # Run on a single CPU
 #SBATCH --mem=4gb                     # Job memory request
-#SBATCH --time=1-23:59:00             # Time limit days-hrs:min:sec
+#SBATCH --time=2-23:59:00             # Time limit days-hrs:min:sec
 #SBATCH --output=gpigb_%j.log         # Standard output and error log
 
 VERSION=$1
