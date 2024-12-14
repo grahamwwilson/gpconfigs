@@ -93,4 +93,16 @@ LEPZ-117   TwoAngles    SEED=1780. As LEPZ-116 but with force_symmetric=0
 
 LEPZ-118   TwoAngles    SEED=1781. (512,1024,80,8,700000). Should maybe be nine times slower??
 
+Z-131  TenAngles (force symmetric 0)
+
+Z-132 to Z-144 TenAngles Waist scan for 615 um sigma_z.
+
+Z-145 TenAngles   waist_y = 1.0 sigma_z with sigma_z = 820 um and sE/E = 0.15%.
+
+Now repeat Z-120 but with larger N. 
+
+Z-146  TenAngles N=2.5
+
+Z-147  TenAngles N=3.0 
+
 
