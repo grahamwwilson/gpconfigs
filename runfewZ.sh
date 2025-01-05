@@ -69,18 +69,25 @@
 #sbatch gp_launchZ-Bhabha.sh 151 TenAngles-10M
 
 # Complete 410 um bunch charge scan
-sbatch gp_launchZ-Bhabha.sh 152 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 152 TenAngles-10M
 
 # Complete 820 um bunch charge scan
-sbatch gp_launchZ-Bhabha.sh 153 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 154 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 155 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 153 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 154 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 155 TenAngles-10M
 
 # Complete 615 um bunch charge scan
-sbatch gp_launchZ-Bhabha.sh 156 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 157 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 158 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 159 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 160 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 156 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 157 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 158 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 159 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 160 TenAngles-10M
+
+# 3 more variants with reduced beta*_x = 12 mm (was 18 mm)
+sbatch gp_launchZ-Bhabha.sh 161 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 162 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 163 TenAngles-10M
+
+
 
 exit
