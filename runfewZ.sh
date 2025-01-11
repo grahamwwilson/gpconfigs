@@ -84,10 +84,13 @@
 #sbatch gp_launchZ-Bhabha.sh 160 TenAngles-10M
 
 # 3 more variants with reduced beta*_x = 15 mm (was 18 mm)
-sbatch gp_launchZ-Bhabha.sh 165 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 166 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 167 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 165 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 166 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 167 TenAngles-10M
 
 #sbatch gp_launchZ-Bhabha.sh 164 TenAngles-10M
+
+sbatch gp_launchZ-Bhabha.sh 168 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 169 TenAngles-10M
 
 exit
