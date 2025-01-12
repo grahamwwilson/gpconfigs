@@ -90,7 +90,7 @@
 
 #sbatch gp_launchZ-Bhabha.sh 164 TenAngles-10M
 
-sbatch gp_launchZ-Bhabha.sh 168 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 169 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 168 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 170 TenAngles-10M
 
 exit
