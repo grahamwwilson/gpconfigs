@@ -2,6 +2,8 @@
 
 # Not sure why I started calling these bp.
 
+sbatch gp_launchbpLEPZC.sh 111C
+
 #sbatch gp_launchbpLEPZC.sh 114
 #sbatch gp_launchbpLEPZ.sh 113
 
@@ -15,6 +17,6 @@
 #sbatch gp_launchLEPZ-Bhabha-DOC.sh 118 TwoAngles
 
 #sbatch gp_launchLEPZ-Bhabha-DOC.sh 119 TwoAngles
-sbatch gp_launchLEPZ-Bhabha-DOC.sh 120 TwoAngles
+#sbatch gp_launchLEPZ-Bhabha-DOC.sh 120 TwoAngles
 
 exit
