@@ -94,8 +94,13 @@
 #sbatch gp_launchZ-Bhabha.sh 171 TenAngles-10M
 #sbatch gp_launchZ-Bhabha.sh 172 TenAngles-10M
 
-sbatch gp_launchZ-Bhabha.sh 173 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 174 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 175 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 173 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 174 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 175 TenAngles-10M
+
+# New runs with higher bunch charge
+sbatch gp_launchZ-Bhabha.sh 176 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 177 TenAngles-10M
+sbatch gp_launchZ-Bhabha.sh 178 TenAngles-10M
 
 exit
