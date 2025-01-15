@@ -99,8 +99,11 @@
 #sbatch gp_launchZ-Bhabha.sh 175 TenAngles-10M
 
 # New runs with higher bunch charge
-sbatch gp_launchZ-Bhabha.sh 176 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 177 TenAngles-10M
-sbatch gp_launchZ-Bhabha.sh 178 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 176 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 177 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 178 TenAngles-10M
+
+# This is a repeat of Z-120 but with pairs simulation
+sbatch gp_launchZ-Bhabha.sh 179 TenAngles-10M
 
 exit
