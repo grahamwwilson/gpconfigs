@@ -134,4 +134,18 @@ Z-168 Baseline but 5.0um/35.0nm emittances
 
 Z-169 Baseline but 5.6um/42.0nm emittances
 
+Z-170. As Z-168 but N=2.2 and beta*=15 mm
+So 
+
+
+Z-175 N=2.0 5/35  410um   beta*_x = 15 mm
+Z-173 N=2.0 5/35  615um   beta*_x = 15 mm
+Z-174 N=2.0 5/35  820um   beta*_x = 15 mm
+
+Z-170 N=2.2 5/35 410um 15mm
+Z=176 N=2.2 5/35 615um 15mm
+Z=178 N=2.4 5/35 410um 15mm
+Z=177 N=2.4 5/35 615um 15mm
+
+Z=179 Just a technical repetition of Z-120 it looks like.
 Z-171/Z-172. As Z-168 but longer bunch-lengths.
