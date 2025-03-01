@@ -104,6 +104,9 @@
 #sbatch gp_launchZ-Bhabha.sh 178 TenAngles-10M
 
 # This is a repeat of Z-120 but with pairs simulation
-sbatch gp_launchZ-Bhabha.sh 179 TenAngles-10M
+#sbatch gp_launchZ-Bhabha.sh 179 TenAngles-10M
+
+# For LC-Vision writeup
+sbatch gp_launchZ-Bhabha.sh 180 TenAngles-10M
 
 exit
